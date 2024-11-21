@@ -27,6 +27,18 @@ const routes: Array<RouteRecordRaw> = [
           path: '/activity3',
           component: () => import('@/views/activity3/index.vue')
         },
+        {
+          path: '/activity4',
+          component: () => import('@/views/activity4/index.vue')
+        },
+        {
+          path: '/activity5',
+          component: () => import('@/views/activity5/index.vue')
+        },
+        {
+          path: '/activity6',
+          component: () => import('@/views/activity6/index.vue')
+        },
        ]
     }
   ]

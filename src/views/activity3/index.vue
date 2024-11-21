@@ -41,7 +41,7 @@ import { IonButtons, IonModal, IonTitle, IonItem, IonInput, IonButton, IonToolba
 
 export default defineComponent({
     name: "IndexScreen",
-    components: { IonButtons, IonModal, IonTitle, IonItem, IonInput, IonTitle, IonButton, IonToolbar, IonHeader, IonPage, IonContent, IonFooter },
+    components: { IonButtons, IonModal, IonTitle, IonItem, IonInput, IonButton, IonToolbar, IonHeader, IonPage, IonContent, IonFooter },
     data() {
         return {
             open: false

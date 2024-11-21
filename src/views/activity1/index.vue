@@ -28,6 +28,27 @@
 <p><small>Learn to use Modal componets</small></p>
 </ion-label>
 </ion-item>
+<ion-item lines="full" @click="()=>{ $router.push('/activity4') }" >
+<ion-icon slot="start" :icon="logoIonic"></ion-icon>
+<ion-label>
+<h3><strong>Activity 4: Map Implementation</strong></h3>
+<p><small>Learn ho to implement map in ionic</small></p>
+</ion-label>
+</ion-item>
+<ion-item lines="full" @click="()=>{ $router.push('/activity5') }" >
+<ion-icon slot="start" :icon="logoIonic"></ion-icon>
+<ion-label>
+<h3><strong>Activity 5: GPS | Geolocation</strong></h3>
+<p><small>Get Latitiude and Longitude</small></p>
+</ion-label>
+</ion-item>
+<ion-item lines="full" @click="()=>{ $router.push('/activity6') }" >
+<ion-icon slot="start" :icon="logoIonic"></ion-icon>
+<ion-label>
+<h3><strong>Activity 6: Camera Implementation</strong></h3>
+<p><small>Learn how to implement camera in ionic</small></p>
+</ion-label>
+</ion-item>
 </ion-list>
 </ion-content>
 </ion-page>
